@@ -88,7 +88,7 @@ const Dashboard = () => {
 
       <main className="flex-grow">
         {/* Hero */}
-        <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-12">
+        <div className="bg-gradient-to-r from-red-900 to-red-800 text-white py-12">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-3xl md:text-4xl font-bebas mb-4">Painel Administrativo</h1>
             <p className="text-blue-100 text-lg max-w-2xl mx-auto">

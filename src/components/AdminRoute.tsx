@@ -2,7 +2,7 @@ import { useEffect, useState, type JSX } from "react";
 import { Navigate } from "react-router-dom";
 import { supabase } from "../api/SupabaseClient";
 
-const ADMIN_EMAIL = "admin.pdp@presidentedutra.ba.gov.br";
+const ADMIN_EMAIL = "admin.pdp@barra.ba.gov.br";
 
 /*
 * @author Caio Alves

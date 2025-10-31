@@ -10,9 +10,9 @@ export function Footer(){
           <div>
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <div className="space-y-2 text-gray-300">
-              <p>📧 pmpdba@presidentedutra.ba.gov.br</p>
-              <p>📞 (74) 3640-1010</p>
-              <p>📍  Av. São Gabriel, 226 - Centro, Pres. Dutra - BA, 44930-000</p>
+              <p>📧 gabinete@barra.ba.gov.br</p>
+              <p>📞 (74) 3662-2101 </p>
+              <p>📍  Avenida 02 de julho nº 70, CEP: 47.100-000, Barra/BA. </p>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ export function Footer(){
             <h3 className="text-lg font-semibold mb-4">Links Úteis</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="http://portaldatransparencia.com.br/prefeitura/presidentedutra/" className="hover:text-white transition-colors">
+                <a href="https://portaldatransparencia.barra.ba.gov.br/" className="hover:text-white transition-colors">
                   Portal da Transparência
                 </a>
               </li>
@@ -31,7 +31,7 @@ export function Footer(){
                 </a>
               </li>
               <li>
-                <a href="http://www.presidentedutra.ba.gov.br/home" className="hover:text-white transition-colors">
+                <a href="https://barra.ba.gov.br/" className="hover:text-white transition-colors">
                   Portal da Prefeitura
                 </a>
               </li>
