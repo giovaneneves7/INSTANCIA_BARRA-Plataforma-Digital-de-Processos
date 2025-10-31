@@ -1,5 +1,5 @@
 import type React from "react"
-import logoPrefeitura from "../assets/logoPrefeitura.png"
+import logoPrefeitura from "../assets/logoPrefeitura.jpg"
 import { useNavigate } from "react-router-dom"
 import { LogOut, ShieldUser, UserCheck } from "lucide-react";
 import {  useEffect, useState } from "react";
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
   //   navigate(isAdmin ? "/dashboard" : "/login");
   //     }
   return (
-    <header className="w-full bg-gradient-to-r from-blue-900 to-blue-800 shadow-lg relative">
+    <header className="w-full bg-gradient-to-r from-green-900 to-green-800 shadow-lg relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Botão de login do administrador */}
         <div className="absolute top-14 right-8">
@@ -72,7 +72,7 @@ const Header: React.FC = () => {
             </div>
           ) : (
             <button
-              className="bg-white hover:bg-blue-200 hover:text-white text-black font-semibold py-2 px-4 rounded shadow flex items-center"
+              className="bg-white hover:bg-green-200 hover:text-black text-black font-semibold py-2 px-4 rounded shadow flex items-center"
               onClick={() => navigate("/login")}
             >
               <ShieldUser className="mr-2" />
@@ -83,11 +83,11 @@ const Header: React.FC = () => {
 
         <div className="flex items-center justify-center py-6 sm:py-8">
           <div className="flex items-center space-x-6">
-          <div className="bg-white rounded-full shadow-md w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 flex items-center justify-center">
+           <div className="bg-white rounded-full shadow-md w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 flex items-center justify-center overflow-hidden">
             <img
               src={logoPrefeitura || "/placeholder.svg"}
               alt="Logo da Prefeitura"
-              className="w-[99%] h-[99%] object-contain"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
 
